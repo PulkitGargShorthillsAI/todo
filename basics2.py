@@ -81,4 +81,26 @@ print(l,'\n')
 
 # List unpacking
 a, b, c = [1, 2, 3]
-print(a, b, c)
+print(a, b, c,'\n')
+
+
+# None 
+x = None
+if x:
+  print("Do you think None is True? \n")
+elif x is False:
+  print ("Do you think None is False? \n")
+else:
+  print("None is not True, or False, None is just None... \n") 
+
+
+# Dictionaries
+person = {"name": "Alice", "age": 25}
+print(person["name"],'\n')
+
+
+# Dictionaries keys and methods
+person = {"name": "Alice", "age": 25}
+print(person.keys())
+x = person.items()
+print(x,'\n')
