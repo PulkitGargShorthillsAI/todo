@@ -104,3 +104,14 @@ person = {"name": "Alice", "age": 25}
 print(person.keys())
 x = person.items()
 print(x,'\n')
+
+
+# tuples
+tuple_example = (1, 2, 3)
+print(tuple_example[0],'\n')
+# tuple_example[0] = 1 # will throw error because tuple are immutable
+
+
+# sets
+unique_numbers = {1, 2, 3, 3, 4}
+print(unique_numbers,'\n') 
