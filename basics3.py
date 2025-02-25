@@ -87,3 +87,11 @@ print()
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(index, fruit)
+print()
+
+
+# while loops
+count = 0
+while count < 3:
+    print(count)
+    count += 1
