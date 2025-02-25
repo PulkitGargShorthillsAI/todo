@@ -47,3 +47,38 @@ for row in A:
   column.append(row[2])   
 
 print("3rd column =", column)
+
+
+print()
+
+import numpy as np
+
+A = np.array([[1, 2, 3], [3, 4, 5]])
+print(A)
+
+A = np.array([[1.1, 2, 3], [3, 4, 5]]) # Array of floats
+print(A)
+
+A = np.array([[1, 2, 3], [3, 4, 5]], dtype = complex) # Array of complex numbers
+print(A)
+
+print()
+
+
+#List Methods
+l = [1,2,3,4,5,6]
+print(len(l))
+l.append(9)
+l.append('apple')
+print(l)
+l.reverse()
+print(l)
+l.pop(1)
+print(l)
+l.remove('apple')
+print(l,'\n')
+
+
+# List unpacking
+a, b, c = [1, 2, 3]
+print(a, b, c)
