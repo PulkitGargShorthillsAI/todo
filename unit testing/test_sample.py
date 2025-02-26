@@ -21,7 +21,7 @@ class TestSample(unittest.TestCase):
         # Negative test case for data type
         with self.assertRaises(ValueError) as context:
             self.checker.add(self.a2, self.b1)
-        self.assertEqual(str(context.exception), "Value must be either an integer or a float")
+        self.assertEqual(str(context.exception), "Value must be either an integer or a float.")
 
     def test_minus(self):
         # Positive test case
