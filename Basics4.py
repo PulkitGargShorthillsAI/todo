@@ -120,6 +120,18 @@ def outer():
 outer()
 
 
+
+def myfunc1():
+  x = "John"
+  def myfunc2():
+    # nonlocal x
+    x = "hello"
+  myfunc2()
+  return x
+
+print(myfunc1()) 
+
+
 def myfunc1():
   x = "John"
   def myfunc2():
